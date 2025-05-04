@@ -2,7 +2,7 @@
 a bunch of Docker Compose files and sample codes
 I use these Docker Compose files, so they have been sanitized for public consumption.
 #
-I will try to reference all souces for documentation found in my repo - Cant say it will always happen but I will do my best
+I will try to reference all sources for documentation found in my repo - Cant say it will always happen but I will do my best
 #
 You will find the following Docker Compose and configuration files in this repo.
 #
