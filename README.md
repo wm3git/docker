@@ -1,9 +1,7 @@
 # docker
-a bunch of docker compose files and sample codes
+a bunch of Docker Compose files and sample codes
 #
+I use these Docker Compose files, but have been sanitized for public consumption.
 #
-These are docker compose files that I use but have been sanatized for public consumption.
-#
-#
-You will finsd the following docker compose and configuration files in this repo.
+You will find the following Docker Compose and configuration files in this repo.
 #
