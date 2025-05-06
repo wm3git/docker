@@ -3,19 +3,20 @@ version: '3.3'
 volumes:
   - haproxy
   - config
-  
+
 services:
   haproxy:
-    image: haproxy:lts-bookworm
+    image: haproxy:lts
     restart: unless-stopped
     environment:
       - TZ=America/New_York
     ports:
+    # HTTP
       - 80:80
+    # HTTPS
       - 443:443
+    # Stats
       - 8443:8443
-      - 53:53
-      - 953:953
     volumes:
       - haproxy:/var/lib/haproxy
       - config:/usr/local/etc/haproxy/
